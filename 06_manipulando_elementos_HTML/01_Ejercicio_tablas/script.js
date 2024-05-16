@@ -3,7 +3,7 @@ function traerTablas(){
    
     let result =`La tabla de ${num} es: <br>`;
     for(let i = 1;i <= 10;i++){
-        result += `${i} x ${num} = ${i*num}<br>`
+        result += `<li>${i} x ${num} = ${i*num}</li>`
     }
     document.getElementById("lista").innerHTML = result;
 }

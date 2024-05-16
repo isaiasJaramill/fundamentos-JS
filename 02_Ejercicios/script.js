@@ -1,42 +1,63 @@
-console.log("Vinculado correctamente...")
-<script>
+console.log("vinculado correctamente")
 // Ejercicio 1: Declaración de variables
-// Instrucciones: Declara dos variables numéricas llamadas 'ahora' y 'fecha_nac'.
+// Instrucciones: Declara dos variables numéricas llamadas 'ahora' y 'Fecha_nac'.
 // Luego, calcula y muestra en un mensaje la edad actual basada en el año de nacimiento.
 
-function declararVariables() {
-
+function calcularEdad() {
 // Tu código aquí
-let ahora = 2024;
-let fecha_nac = 2005;
-let resultado = ahora-fecha_nac;
-alert("Mi edad es:" + resultado);
+        let ahora = 2024;
+        let Fecha_nac = 2006;
+        let resultado = ahora - Fecha_nac;
+        alert("Mi edad es: " + resultado);
 }
 
 // Ejercicio 2: Asignación de valores
 // Instrucciones: Completa la función para asignar el valor de 'var1' a 'var2' y luego muestra el valor de 'var2'.
-function asignarValores() {
+function realizarOperaciones() {
     // Tu código aquí
+    let var1 = 777;
+    let var2 = var1;
+    alert("El valor de var2 es: " + var1);
+
 
 }
 
 // Ejercicio 3: Operaciones matemáticas
 // Instrucciones: Completa la función para realizar las siguientes operaciones:
-// Suma 'num1','num2' y 'num3' resta 'num1' de 'num3', multiplica 'num2' por 'num3', y divide 'num1' entre '120'.
+// Suma 'sum1' y 'sum2' y 'sum3' , resta 'num1' de 'num3', multiplica 'num2' por 'num3', y divide 'num1' entre '120'.
 // Muestra los resultados en un mensaje.
 function realizarOperaciones() {
+    // Tu código aquí
+    let sum1 = 390;
+    let sum2 = 150;
+    let sum3 = 100;
+    let suma = sum1 + sum2 + sum3;
+    let resta = sum1 - sum3;
+    let multi = sum2 * sum3;
+    let divi = sum1 / 120;
+    
+    alert("la suma es " + suma + "\n la resta es " + resta + "\n la multi es " + multi + "\n la division es " + divi );
 
-
-alert( );
-
-// Tu código aquí
 }
 
 // Ejercicio 4: Manipulación de cadenas
-// Instrucciones: Completa la función para construir un mensaje utilizando las variables 'direccion' y 'n_casa'.
-// Luego, muestra la longitud del mensaje y el antepenultimo en el mensaje. (.length)
+// Instrucciones: Completa la función para construir un mensaje utilizando las variables 'direccion' y 'numero Casa.
+// Luego, muestra la longitud del mensaje y el antepenultimo carácter en el mensaje.
 function manipularCadenas() {
+    // Tu código aquí
+        let direccion = "Independencia";
+        let numCasa = "1915";
+        let mensaje = " la direccion es " + direccion + " su numero de casa es " + numCasa;
+        let longitud = mensaje.length;
+        alert("Mensaje: " + mensaje +"\nLongitud: " + longitud +"\nPrimer Caracter: " + mensaje[0]);
 
-// Tu código aquí
 
+}
+
+
+
+function sumarIndices(){
+    let arreglo = [1,2,3,4,5,6,7];
+    let = resultado = arreglo[arreglo.length - 1] +arreglo[arreglo.length - 2]
+    alert("El resultado de la suma es: " + resultado)
 }
