@@ -6,7 +6,7 @@ console.log("vinculado correctamente")
 function calcularEdad() {
 // Tu código aquí
         let ahora = 2024;
-        let Fecha_nac = 2006;
+        let Fecha_nac = 2005;
         let resultado = ahora - Fecha_nac;
         alert("Mi edad es: " + resultado);
 }
